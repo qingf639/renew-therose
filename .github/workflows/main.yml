@@ -3,7 +3,7 @@ name: Auto Renew therose
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/55 * * * *'
+    - cron: '40 8,20 * * *'
 
 permissions:
   actions: write
